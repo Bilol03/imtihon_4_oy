@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    background-color: aqua;
+    color: azure;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    padding: 10px
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 20px 30px;
+    width: 50%;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    align-items: center;
+
+    
+}

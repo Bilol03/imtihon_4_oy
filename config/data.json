@@ -12,12 +12,5 @@
         "owner": "Nazarov Diyor",
         "model": "Hyundai Sonata",
         "parkedAt": "2025-02-25T11:30:00Z"
-    },
-    {
-        "id": 3,
-        "number": "10A917CB",
-        "owner": "Madiyarov Umidulla",
-        "model": "Mercedes 220",
-        "parkedAt": "2025-02-25T13:29:03.185Z"
     }
 ]

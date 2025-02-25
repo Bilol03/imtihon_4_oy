@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getHome, getCars, getAdmin, postCars, getById, updateCar} from '../controller/car.controller.js'
+import { getHome, getCars, getAdmin, postCars, getById, updateCar, deleteCars } from '../controller/car.controller.js'
 
 let route = Router()
 
@@ -8,6 +8,7 @@ route.get("/cars", getCars)
 route.get("/cars/:id", getById)
 route.post('/cars', postCars)
 route.put('/cars/:id', updateCar)
+route.delete("/cars/:id", deleteCars)
 route.get("/admin", getAdmin)
 
 

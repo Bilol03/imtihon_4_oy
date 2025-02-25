@@ -1,7 +1,8 @@
 import { getData, postData } from "../service/car.service.js"
  
 let getHome = (req, res) => {
-    res.render('index')
+    let datas = getData('data')
+    res.render('index', {datas: datas})
 }
 
 let getCars = (req, res) => {
@@ -49,6 +50,13 @@ let updateCar = (req, res) => {
     res.status(201).json("Success")
 }
 
+let deleteCars = (req, res) => {
+    let datas = getData('data')
+    datas = datas.filter(el => el.id !== +req.params.id)
+    postData('data', datas)
+    res.status(200).json({message: "Success!"})
+}
+
 export {
     getHome,
     getCars,
@@ -56,5 +64,6 @@ export {
     getAdmin, 
     postCars,
     updateCar,
+    deleteCars,
 
 }

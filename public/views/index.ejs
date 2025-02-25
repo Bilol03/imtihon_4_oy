@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Online Parkovka</title>
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
     <h1>Mashinalar ro‘yxati</h1>
-    <ul id="cars-list"></ul>
+    <ul id="cars-list">
+        <% for(let data of datas){%> 
+            <li>
+                <h4> <%= data.owner %> </h4>
+                <h5><%= data.model%></h5>
+                <h5> <%= data.number %> </h5>
+                <p> <%= data.parkedAt%> </p>    
+            </li>    
+        <%} %>
+    </ul>
 
    </body>
 </html>
