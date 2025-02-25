@@ -12,5 +12,12 @@
         "owner": "Nazarov Diyor",
         "model": "Hyundai Sonata",
         "parkedAt": "2025-02-25T11:30:00Z"
+    },
+    {
+        "number": "asda",
+        "owner": "asdad",
+        "model": "adsda",
+        "id": 3,
+        "parkedAt": "2025-02-25T14:28:30.214Z"
     }
 ]

@@ -11,6 +11,7 @@ let getCars = (req, res) => {
 }
 
 let getAdmin = (req, res) => {
+
     res.render("admin")
 }
 
@@ -23,6 +24,8 @@ let getById = (req, res) => {
 
 let postCars = (req, res) => {
     let body = req.body
+    console.log(body);
+    
     if (!body.number || !body.owner || !body.model) throw new Error("Qaysidur ma'lumot kiritilmagan")
     let date = new Date()
     let datas = getData('data')
