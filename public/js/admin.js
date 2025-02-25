@@ -15,7 +15,7 @@ async function postData() {
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify(body)
     })
-    console.log(await responce.json);
+    alert("Successfully posted")
     
 }
 

@@ -19,5 +19,12 @@
         "model": "BMW x7",
         "id": 3,
         "parkedAt": "2025-02-25T14:31:06.080Z"
+    },
+    {
+        "number": "10A121BM",
+        "owner": "Bilol Madiyarov",
+        "model": "Chevrolet Captiva",
+        "id": 4,
+        "parkedAt": "2025-02-25T14:34:54.916Z"
     }
 ]
