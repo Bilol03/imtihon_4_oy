@@ -48,6 +48,7 @@ let updateCar = (req, res) => {
     if(body.model) {
         data.model = body.model
     }
+    data.parkedAt = new Date()
 
     postData('data', datas)
     res.status(201).json("Success")
